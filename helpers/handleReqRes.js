@@ -1,12 +1,21 @@
 const url = require('url');
 const { StringDecoder } = require('string_decoder');
 const routes = require('../routes');
+<<<<<<< HEAD
 
 const { notFoundHandler } = require('../node_modules/handlers/routeHandlers/notFoundHandler');
 
 const { notFoundHandler} = require('../node_modules/handlers/routeHandlers/notFoundHandler');
 
 
+=======
+<<<<<<< HEAD
+const { notFoundHandler } = require('../node_modules/handlers/routeHandlers/notFoundHandler');
+=======
+const { notFoundHandler} = require('../node_modules/handlers/routeHandlers/notFoundHandler');
+
+>>>>>>> b81abe2 (fgfg)
+>>>>>>> 86cfe6fac0711d95c1eeecdaaf0a8e547b3e6b24
 const {parseJSON}  = require('../helpers/utilities');
 const handler = {};
 handler.handleReqRes = (req, res) => {
